@@ -13,7 +13,6 @@
   --transicao:             0.3s ease;
 }
 
-
 *{
   box-sizing: border-box;
   margin: 0;
@@ -48,7 +47,6 @@ html{
   height: 64px;
   transition: border-color var(--transicao), box-shadow var(--transicao);
 }
-
 
 #menu-navegacao.menu-com-sombra {
   border-color: var(--cor-borda);
