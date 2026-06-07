@@ -101,7 +101,6 @@ html{
 #botao-hamburguer.aberto span:nth-child(2) { opacity: 0; }
 #botao-hamburguer.aberto span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-
 @media (max-width: 768px) {
   #botao-hamburguer {
     display: flex;
