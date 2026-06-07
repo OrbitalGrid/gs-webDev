@@ -639,14 +639,14 @@ section {
   box-shadow: 0 0 0 3px var(--cor-brilho-destaque);
 }
 
-
+/* Campo inválido */
 .grupo-campo input.campo-invalido,
 .grupo-campo textarea.campo-invalido,
 .grupo-campo select.campo-invalido {
   border-color: #ef4444;
 }
 
-
+/* Campo válido */
 .grupo-campo input.campo-valido,
 .grupo-campo textarea.campo-valido,
 .grupo-campo select.campo-valido {
@@ -659,7 +659,7 @@ section {
   display: none;
 }
 
-
+/* Botão de envio */
 .botao-enviar {
   align-self: flex-start;
   padding: 0.8rem 2rem;
@@ -694,7 +694,7 @@ section {
 .icone-sucesso {
   font-size: 1.5rem;
 }
-
+/* Rodapé */
 #rodape {
   text-align: center;
   padding: 2rem;
@@ -702,7 +702,7 @@ section {
   font-size: 0.85rem;
   border-top: 1px solid var(--cor-borda);
 }
-
+/* Elementos que aparecem durante a rolagem */
 .aparece-ao-rolar {
   opacity: 0;
   transform: translateY(30px);
@@ -714,7 +714,7 @@ section {
   transform: translateY(0);
 }
 
-
+/* Classe utilitária para esconder elementos */
 .escondido {
   display: none !important;
 }
